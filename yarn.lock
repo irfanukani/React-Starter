@@ -4066,6 +4066,14 @@
   "resolved" "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz"
   "version" "1.0.2"
 
+"cors-anywhere@^0.4.3":
+  "integrity" "sha512-x+pmjGZsoWrPMPbHdga8yVYYys0aaDLezP+V3uOX3GLqWlCMRmcFyXqrdmi/DP5SN6f5mxtUtAmzHO4u3DohSg=="
+  "resolved" "https://registry.npmjs.org/cors-anywhere/-/cors-anywhere-0.4.3.tgz"
+  "version" "0.4.3"
+  dependencies:
+    "http-proxy" "1.11.1"
+    "proxy-from-env" "0.0.1"
+
 "cosmiconfig@^5.0.0":
   "integrity" "sha512-H65gsXo1SKjf8zmrJ67eJk8aIRKV5ff2D4uKZIBZShbhGSpEmsQOPW/SKMKYhSTrqR7ufy6RP69rPogdaPh/kA=="
   "resolved" "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-5.2.1.tgz"
@@ -5331,6 +5339,11 @@
   "resolved" "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz"
   "version" "4.0.0"
 
+"eventemitter3@1.x.x":
+  "integrity" "sha1-HIaZHYFq0eUEdQ5zh0Ik7PO+xQg="
+  "resolved" "https://registry.npmjs.org/eventemitter3/-/eventemitter3-1.2.0.tgz"
+  "version" "1.2.0"
+
 "events@^3.0.0":
   "integrity" "sha512-Rv+u8MLHNOdMjTAFeT3nCjHn2aGlx435FP/sDHNaRhDEMwyI/aB22Kj2qIN8R0cw3z28psEQLYwxVKLsKrMgWg=="
   "resolved" "https://registry.yarnpkg.com/events/-/events-3.1.0.tgz"
@@ -6348,6 +6361,14 @@
     "eventemitter3" "^4.0.0"
     "follow-redirects" "^1.0.0"
     "requires-port" "^1.0.0"
+
+"http-proxy@1.11.1":
+  "integrity" "sha1-cd9VdX6ALVjqgQ3yJEAZ3aBa6F0="
+  "resolved" "https://registry.npmjs.org/http-proxy/-/http-proxy-1.11.1.tgz"
+  "version" "1.11.1"
+  dependencies:
+    "eventemitter3" "1.x.x"
+    "requires-port" "0.x.x"
 
 "http-signature@~1.2.0":
   "integrity" "sha1-muzZJRFHcvPZW2WmCruPfBj7rOE="
@@ -8415,7 +8436,7 @@
   "resolved" "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.70.tgz"
   "version" "1.1.70"
 
-"node-sass@^4.0.0", "node-sass@^5.0.0":
+"node-sass@^4.0.0":
   "integrity" "sha512-opNgmlu83ZCF792U281Ry7tak9IbVC+AKnXGovcQ8LG8wFaJv6cLnRlc6DIHlmNxWEexB5bZxi9SZ9JyUuOYjw=="
   "resolved" "https://registry.yarnpkg.com/node-sass/-/node-sass-5.0.0.tgz"
   "version" "5.0.0"
@@ -9910,6 +9931,11 @@
     "forwarded" "~0.1.2"
     "ipaddr.js" "1.9.1"
 
+"proxy-from-env@0.0.1":
+  "integrity" "sha1-snxJRunm1dutt1mKZDXTAUxM/Uk="
+  "resolved" "https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-0.0.1.tgz"
+  "version" "0.0.1"
+
 "prr@~1.0.1":
   "integrity" "sha1-0/wRS6BplaRexok/SEzrHXj19HY="
   "resolved" "https://registry.yarnpkg.com/prr/-/prr-1.0.1.tgz"
@@ -10546,6 +10572,11 @@
   "integrity" "sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8="
   "resolved" "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz"
   "version" "1.0.0"
+
+"requires-port@0.x.x":
+  "integrity" "sha1-S0QUQR2d98hVmV3YmajHiilRwW0="
+  "resolved" "https://registry.npmjs.org/requires-port/-/requires-port-0.0.1.tgz"
+  "version" "0.0.1"
 
 "resolve-cwd@^2.0.0":
   "integrity" "sha1-AKn3OHVW4nA46uIyyqNypqWbZlo="
